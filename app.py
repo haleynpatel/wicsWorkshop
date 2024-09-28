@@ -23,5 +23,5 @@ def metrics():
     return generate_latest(registry), 200, {'Content-Type': 'text/plain; charset=utf-8'}
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
+
