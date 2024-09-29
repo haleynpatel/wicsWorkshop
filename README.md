@@ -22,4 +22,4 @@ wicsWorkshop/
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project readme file
 ```
-![image](static\images\applicationImage.PNG)
+![image](static/images/applicationImage.PNG)
