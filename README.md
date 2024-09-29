@@ -21,5 +21,5 @@ wicsWorkshop/
 │   ├── index.html           # Main HTML file
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project readme file
-
+```
 ![image](static\images\applicationImage.PNG)
